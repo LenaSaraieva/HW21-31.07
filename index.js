@@ -39,6 +39,21 @@ class Car {
    }
 }
       
+ //Examples 
+      //декілька екземплярів класу Людина;
+      const person1 = new Person('Nick', 26);
+      const person2 = new Person('John', 45);
+      const person3 = new Person('Vicky',30);
+
+      //декілька екземплярів класу Автомобіль;
+      const car1 = new Car('Audi', 'Q8', 2020, 'AX4576AK');
+      const car2 = new Car('Kia', 'Sorento', 2021, 'BH5723TC');
+      const car3 = new Car('Hyundai', 'Tucson', 2017, 'AH4585AH');
+
+      //присвоїти власників автомобілям.
+      car1.addOwner(person1);
+      car2.addOwner(person2);
+      car3.addOwner(person3);
 
      
 
